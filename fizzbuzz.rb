@@ -7,5 +7,7 @@ def fizzbuzz (argument)
       puts "Buzz"
     elsif (argument % 3 && 5 == 0)
        puts "FizzBuzz" 
-end
+    else ()
+      puts ("")
+  end
 end
