@@ -1,13 +1,13 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
-def fizzbuzz (argument)
-  if (argument % 3 == 0)
-    puts "Fizz"
-    elsif (argument % 5 == 0)
-      puts "Buzz"
-    elsif (argument % 3 && 5 == 0)
-       puts "FizzBuzz" 
-    else (argument % 3 || 5 == 0)
-      puts ("nil")
-  end
+def fizzbuzz(int)
+    if int % 3 == 0
+        puts "Fizz"
+    end
+    if int % 5 == 0
+        puts "Buzz"
+    end
+    if (int % 3 == 0) && (int % 5 == 0)
+        puts "FizzBuzz"
+    end
 end
